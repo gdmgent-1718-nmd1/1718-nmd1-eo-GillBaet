@@ -1,5 +1,18 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Raleway',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     letter-spacing: -.022em;
     font-synthesis: none;
@@ -11,6 +24,9 @@ body {
     padding: 25px;
 }
 
+.splitsen{
+  float: left;
+}
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
@@ -19,11 +35,12 @@ img {
 
 .container{
     max-width: 100%;
-    height: 1500px;
+    height: 2000px;
     background-color:lightgray;
     margin:0 auto;
 
 }
+
 .mid{
     max-width: 1000px;
     height: 1500px;
@@ -39,7 +56,7 @@ img {
 }
 html {
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', 'Open Sans', sans-serif;
   }
   
   *, *:before, *:after {
@@ -50,12 +67,6 @@ html {
     padding: 0 25px 25px;
     position: relative;
     width: 100%;
-  }
-  
-  @media (min-width: 900px) {
-    .background {
-      padding: 0 0 25px;
-    }
   }
   
   .containertable {
@@ -76,14 +87,7 @@ html {
   
   .pricing-table {
     box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
-    display: flex;
     flex-direction: column;
-  }
-  
-  @media (min-width: 900px) {
-    .pricing-table {
-      flex-direction: row;
-    }
   }
   
   .pricing-table * {
@@ -94,17 +98,14 @@ html {
   .pricing-plan {
     border-bottom: 1px solid #e1f1ff;
     padding: 25px;
-    
-  }
-  
-  .pricing-plan:last-child {
-    border-bottom: none;
+    float: left;
+    width: 30%;
+
   }
   
   @media (min-width: 900px) {
     .pricing-plan {
-      border-bottom: none;
-      border-right: 1px solid #e1f1ff;
+      border-bottom: none;   
       flex-basis: 100%;
       padding: 25px 50px;
     }
@@ -115,14 +116,19 @@ html {
   }
   
   .pricing-img {
-    margin-bottom: 25px;
     max-width: 100%;
+    width: 100%;
+    height: 30%;
+    border-radius:10px;
+    margin-left:40px;
   }
   
   .pricing-header {
     color: #888;
     font-weight: 600;
     letter-spacing: 1px;
+    margin-left:45px;
+    width: 150px;
   }
   
   .pricing-features {
@@ -130,6 +136,7 @@ html {
     font-weight: 600;
     letter-spacing: 1px;
     margin: 50px 0 25px;
+    margin-left:10px;
   }
   
   .pricing-features-item {
@@ -142,36 +149,7 @@ html {
   .pricing-features-item:last-child {
     border-bottom: 1px solid #e1f1ff;
   }
-  
-  .pricing-price {
-    color: #016FF9;
-    display: block;
-    font-size: 32px;
-    font-weight: 700;
-  }
-  
-  .pricing-button {
-    border: 1px solid #9dd1ff;
-    border-radius: 10px;
-    color: #348EFE;
-    display: inline-block;
-    margin: 25px 0;
-    padding: 15px 35px;
-    text-decoration: none;
-    transition: all 150ms ease-in-out;
-  }
-  
-  .pricing-button:hover,
-  .pricing-button:focus {
-    background-color: #e1f1ff;
-  }
-  
-  .pricing-button.is-featured {
-    background-color: #48aaff;
-    color: #fff;
-  }
-  
-  .pricing-button.is-featured:hover,
-  .pricing-button.is-featured:active {
-    background-color: #269aff;
+
+  .bandleden{
+    border-radius: 0px;
   }
