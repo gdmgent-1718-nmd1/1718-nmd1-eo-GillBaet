@@ -39,7 +39,6 @@ img {
     height: 2000px;
     background-color:lightgray;
     margin:0 auto;
-
 }
 
 .mid{
@@ -157,9 +156,31 @@ html {
 
   /*Concurrentie analyse*/
 
-  .Nickelback{
+ .Nickelback{
     max-width: 1920px;
     width:100%;
     height:100vh;
-    background-color:gray;
+  
+}
+
+.midConcurrentie{
+  max-width: 1000px;
+  height: 1500px;
+  background-color:White;
+  margin:0 auto;
+  padding:1px 20px 0px 20px;
+  max-width: 1920px;
+  width:100%;
+  height:100vh;
+}
+
+.midNickelback{
+  max-width: 1000px;
+  height: 1500px;
+  background-color:lightgray;
+  margin:0 auto;
+  padding:1px 20px 0px 20px;
+  max-width: 1920px;
+  width:100%;
+  height:100vh;
 }
