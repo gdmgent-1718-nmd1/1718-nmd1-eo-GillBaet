@@ -207,6 +207,10 @@ html {
 
 .up{
   text-align: center;
+  
+}
+#afstand{
+  margin-top:4%;
 }
 
 a{
@@ -228,6 +232,8 @@ a:hover{
     font-size: 20px;
 }
 li{
+  padding: 6px 0px 6px 0px;
   padding-left:3%;
   font-size: 16px;
+  
 }
