@@ -222,6 +222,9 @@ a:hover{
   text-decoration: none;
   color:gray;
 }
+.link{
+  text-decoration: underline;
+}
 
 #next{
   margin:20%;
