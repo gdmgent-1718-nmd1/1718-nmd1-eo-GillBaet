@@ -48,7 +48,6 @@ img {
     margin:0 auto;
     padding:1px 20px 0px 20px;
 }
-
 .Cyaan{
     width: 10%;
     height: 10%;
@@ -62,20 +61,17 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
-  
   .background {
     padding: 0 25px 25px;
     position: relative;
     width: 100%;
   }
-  
   .containertable {
     margin: 0 auto;
     padding: 50px 0 0;
     max-width: 960px;
     width: 100%;
   }
-  
   .panel {
     background-color: #fff;
     border-radius: 10px;
@@ -84,17 +80,14 @@ html {
     width: 100%;
     z-index: 10;
   }
-  
   .pricing-table {
     box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
     flex-direction: column;
   }
-  
   .pricing-table * {
     text-align: center;
     text-transform: uppercase;
   }
-  
   .pricing-plan {
     border-bottom: 1px solid #e1f1ff;
     padding: 25px;
@@ -102,19 +95,16 @@ html {
     width: 30%;
 
   }
-  
   @media (min-width: 900px) {
     .pricing-plan {
       border-bottom: none;   
       flex-basis: 100%;
       padding: 25px 50px;
     }
-  
     .pricing-plan:last-child {
       border-right: none;
     }
   }
-  
   .pricing-img {
     max-width: 100%;
     width: 100%;
@@ -122,7 +112,6 @@ html {
     border-radius:10px;
     margin-left:40px;
   }
-  
   .pricing-header {
     color: #888;
     font-weight: 600;
@@ -130,7 +119,6 @@ html {
     margin-left:45px;
     width: 150px;
   }
-  
   .pricing-features {
     color: #016FF9;
     font-weight: 600;
@@ -138,18 +126,15 @@ html {
     margin: 50px 0 25px;
     margin-left:10px;
   }
-  
   .pricing-features-item {
     border-top: 1px solid #e1f1ff;
     font-size: 12px;
     line-height: 1.5;
     padding: 15px 0;
   }
-  
   .pricing-features-item:last-child {
     border-bottom: 1px solid #e1f1ff;
   }
-
   .bandleden{
     border-radius: 0px;
   }
@@ -159,10 +144,8 @@ html {
  .Nickelback{
     max-width: 1920px;
     width:100%;
-    height:100vh;
-  
+    height:100vh; 
 }
-
 .midWhite{
   max-width: 1000px;
   height: 1500px;
@@ -173,7 +156,6 @@ html {
   width:100%;
   height:100vh;
 }
-
 .midGray{
   max-width: 1000px;
   height: 1500px;
@@ -184,7 +166,6 @@ html {
   width:100%;
   height:100vh;
 }
-
 .midConcurrentieGray{
   max-width: 1000px;
   height: 1000px;
@@ -194,7 +175,6 @@ html {
   width:100%;
   height:100vh;
 }
-
 .midConcurrentieWhite{
   max-width: 1000px;
   height: 1000px;
@@ -204,21 +184,17 @@ html {
   width:100%;
   height:100vh;
 }
-
 .up{
-  text-align: center;
-  
+  text-align: center; 
 }
 #afstand{
   margin-top:4%;
 }
-
 a{
   color:black;
   text-decoration: none;
   transition: all 1s ease;
 }
-
 a:hover{
   text-decoration: none;
   color:#5ED9C3;
@@ -227,11 +203,9 @@ a:hover{
 .link{
   text-decoration: underline;
 }
-
 #next{
   margin:20%;
 }
-
 .opsomming{
     list-style-type: none;
     font-size: 20px;
@@ -239,10 +213,8 @@ a:hover{
 li{
   padding: 6px 0px 6px 0px;
   padding-left:3%;
-  font-size: 16px;
-  
+  font-size: 16px; 
 }
-
 .button{
   position: relative;
   padding: 1em 1.5em;
@@ -253,7 +225,6 @@ li{
   font-size: 18px;
   margin: 1em 0.8em;
 }
-
 .button.type1::after, .button.type1::before{
   content: '';
   display: block;
@@ -272,7 +243,6 @@ li{
   border-bottom-color:black;
   border-right-color:black;
 }
-
 .button.type1::before{
   top: 0;
   left: 0;
@@ -281,10 +251,7 @@ li{
   border-top-color: black;
   border-left-color: black;
 }
-
 button.type1:hover:after, button.type1:hover:before{
   width: 100%;
   height: 100%;
 }
-      
-
