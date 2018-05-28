@@ -19,7 +19,7 @@ body {
     -moz-font-feature-settings: 'kern';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #333;
+    color: #333333;
     line-height: 1.5em;
     padding: 25px;
     background-color:white;
@@ -113,7 +113,7 @@ html {
     margin-left:40px;
   }
   .pricing-header {
-    color: #888;
+    color: #888888;
     font-weight: 600;
     letter-spacing: 1px;
     margin-left:45px;
@@ -169,7 +169,7 @@ html {
 .midConcurrentieGray{
   max-width: 1000px;
   height: 1000px;
-  background-color:lightgray;
+  background-color:#d3d3d3;
   margin:0 auto;
   padding:1px 20px 0px 20px;
   width:100%;
@@ -214,6 +214,7 @@ li{
   padding: 6px 0px 6px 0px;
   padding-left:3%;
   font-size: 16px; 
+  margin-right: 80px;
 }
 .button{
   position: relative;
