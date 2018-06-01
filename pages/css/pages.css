@@ -30,6 +30,9 @@ body {
 }
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
+    -webkit-box-shadow: 8px 8px 20px 0px rgba(135,135,135,1);
+    -moz-box-shadow: 8px 8px 20px 0px rgba(135,135,135,1);
+    box-shadow: 8px 8px 20px 0px rgba(135,135,135,1);
 }
 
 /* Voeg jouw css hieraan toe */
@@ -113,7 +116,7 @@ html {
     margin-left:40px;
   }
   .pricing-header {
-    color: #888888;
+    color: rgb(136, 136, 136);
     font-weight: 600;
     letter-spacing: 1px;
     margin-left:45px;
@@ -127,14 +130,15 @@ html {
     margin-left:10px;
   }
   .pricing-features-item {
-    border-top: 1px solid #e1f1ff;
+    /*border-top: 1px solid #e1f1ff;*/
     font-size: 12px;
     line-height: 1.5;
     padding: 15px 0;
+    margin-left:30px;
   }
-  .pricing-features-item:last-child {
+ /* .pricing-features-item:last-child {
     border-bottom: 1px solid #e1f1ff;
-  }
+  }*/
   .bandleden{
     border-radius: 0px;
   }
