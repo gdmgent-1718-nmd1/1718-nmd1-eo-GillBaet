@@ -25,9 +25,6 @@ body {
     background-color:white;
 }
 
-.splitsen{
-  float: left;
-}
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
     -webkit-box-shadow: 8px 8px 20px 0px rgba(135,135,135,1);
@@ -40,14 +37,14 @@ img {
 .container{
     max-width: 100%;
     height: 2175px;
-    background-color:lightgray;
+    background-color:#d3d3d3;
     margin:0 auto;
 }
 
 .mid{
     max-width: 1000px;
     height: 1500px;
-    background-color:lightgray;
+    background-color:rgb(211, 211, 211);
     margin:0 auto;
     padding:1px 20px 0px 20px;
 }
@@ -116,14 +113,14 @@ html {
     margin-left:40px;
   }
   .pricing-header {
-    color: rgb(136, 136, 136);
+    color: rgb(135, 135, 135);
     font-weight: 600;
     letter-spacing: 1px;
     margin-left:45px;
     width: 150px;
   }
   .pricing-features {
-    color: #016FF9;
+    color: rgb(1, 112, 248);
     font-weight: 600;
     letter-spacing: 1px;
     margin: 50px 0 25px;
@@ -193,7 +190,7 @@ html {
 }
 
 a{
-  color:#333333;
+  color:rgb(51, 51, 51);
   text-decoration: none;
   transition: all 1s ease;
 }
@@ -201,9 +198,6 @@ a:hover{
   text-decoration: none;
   color:#5ED9C3;
   transition: all 0.6s ease;
-}
-.link{
-  text-decoration: underline;
 }
 #next{
   margin:20%;
@@ -243,7 +237,7 @@ li{
   right: 0;
   border-top-color: transparent;
   border-left-color: transparent;
-  border-bottom-color:black;
+  border-bottom-color:rgb(0, 0, 0);
   border-right-color:black;
 }
 .button.type1::before{
@@ -264,7 +258,8 @@ button.type1:hover:after, button.type1:hover:before{
   margin-left:10%;
 }
 .kleuren{
-  margin:10px;
+  margin: 6px;
+  margin-top: 60px;
   height: 180px;
   width: 180px;
   border-radius: 50%;
@@ -302,7 +297,29 @@ button.type1:hover:after, button.type1:hover:before{
   text-align: left;
 }
 
-.upLower{
-  padding-top:400px;
+.upLowerTypo1{
+  padding-top:5px;
   text-align: center;
 }
+
+.upLowerTypo{
+  padding-top:50px;
+  text-align: center;
+}
+
+.upLowerKleur{
+  padding-top:550px;
+  text-align: center;
+}
+
+.onderlijn{
+  color:#333333;
+  text-decoration: underline #5ED9C3;
+  transition: all 1s ease;
+}
+.onderlijn:hover{
+  text-decoration: none;
+  color:#5ED9C3;
+  transition: all 0.6s ease;
+}
+
